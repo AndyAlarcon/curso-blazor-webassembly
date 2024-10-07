@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "curso-blazor-webassembly",
   "resources": {
-    "hash": "sha256-vLKxjfoK6eTZq5bxRWEaICcFHoz6vYnE4Y1oZBaL7sw=",
+    "hash": "sha256-2Z1Gx/p8vwzK6ZnGy+m5JYQCH2HpvBCsmsGhql6Y7jE=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.3575p5c4nx.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -208,14 +208,17 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "curso-blazor-webassembly.wasm": "sha256-s8dlo7HQZVA6+kLPU/GvJKI7LqjRg/ddeaNpdFBxgv8="
+      "curso-blazor-webassembly.wasm": "sha256-4XPejpHERZbnrRk5nVzMrLyfhfMrIGKmBrsLw4ydK2Q="
     },
     "pdb": {
-      "curso-blazor-webassembly.pdb": "sha256-Pig2ClCciPlhQBZq8yKhxzaHVuDFNNdFDQc+BmT506k="
+      "curso-blazor-webassembly.pdb": "sha256-u8gLGzN/I+Uiio1dwyXAOl8IwAeOqTL0uWubc4yZdZ8="
     }
   },
   "cacheBootResources": true,
   "debugLevel": -1,
+  "appsettings": [
+    "../appsettings.json"
+  ],
   "globalizationMode": "sharded",
   "extensions": {
     "blazor": {}

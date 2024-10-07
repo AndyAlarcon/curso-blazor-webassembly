@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\curso-blazor-webassembly.styles.css"
     },
     {
+      "Id": "C:\\Desarrollo\\curso-blazor-webassembly\\wwwroot\\appsettings.json",
+      "PackagePath": "staticwebassets\\appsettings.json"
+    },
+    {
       "Id": "C:\\Desarrollo\\curso-blazor-webassembly\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
