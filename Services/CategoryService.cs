@@ -2,15 +2,15 @@ using System.Text.Json;
 
 namespace curso_blazor_webassembly;
 
-public class CategoryService
+public class CategoryService: ICategoryService
 {
      private readonly HttpClient client;
     private readonly JsonSerializerOptions options;
 
-    public CategoryService(HttpClient httpClient, JsonSerializerOptions optionsJson)
+    public CategoryService(HttpClient httpClient)
     {
         client = httpClient;
-        options = optionsJson;
+        options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
     }
     public async Task<List<Category>?> Get()
     {
@@ -20,6 +20,10 @@ public class CategoryService
         {
             throw new ApplicationException(content);
         }
-        return await JsonSerializer.DeserializeAsync<List<Category>>(await response.Content.ReadAsStreamAsync());
+        return await JsonSerializer.DeserializeAsync<List<Category>>(await response.Content.ReadAsStreamAsync(), options);
     }
+}
+public interface ICategoryService
+{
+    Task<List<Category>?> Get();
 }

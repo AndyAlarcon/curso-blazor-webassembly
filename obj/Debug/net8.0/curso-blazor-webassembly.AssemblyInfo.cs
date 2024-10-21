@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("curso-blazor-webassembly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2448fd034c93c40cfc5533d08a1642fbbe8fb174")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8506050fbe290af7f18defea455afca59f2b23b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("curso-blazor-webassembly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("curso-blazor-webassembly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
