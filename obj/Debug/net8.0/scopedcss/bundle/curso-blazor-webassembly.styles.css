@@ -160,3 +160,10 @@ main[b-4m9eitvw9y] {
         overflow-y: auto;
     }
 }
+/* /Pages/Products.razor.rz.scp.css */
+.products-container[b-fnox4xees8] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+}
