@@ -27,7 +27,7 @@ public class ProductService: IProductService
     }
     public async Task Add(Product product)
     {
-        var response = await client.PostAsync("/v1/products",JsonContent.Create(product));
+        var response = await client.PostAsync("api/v1/products",JsonContent.Create(product));
         var Content = await response.Content.ReadAsStringAsync();
         if(!response.IsSuccessStatusCode)
         {
@@ -36,7 +36,7 @@ public class ProductService: IProductService
     }
     public async Task Delete(int productId)
     {
-        var response = await client.DeleteAsync($"/v1/products/{productId}");
+        var response = await client.DeleteAsync($"api/v1/products/{productId}");
         var Content = await response.Content.ReadAsStringAsync();
         if(!response.IsSuccessStatusCode)
         {
