@@ -2063,3 +2063,4 @@ C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.
 C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.0\refint\curso-blazor-webassembly.dll
 C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.0\curso-blazor-webassembly.pdb
 C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.0\ref\curso-blazor-webassembly.dll
+C:\Desarrollo\curso-blazor-webassembly\obj\Debug\net8.0\scopedcss\Pages\Products\Products.razor.rz.scp.css

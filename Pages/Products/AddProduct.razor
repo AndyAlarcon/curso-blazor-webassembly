@@ -1,0 +1,44 @@
+@page "/addproduct"
+@inject IProductService productService
+@inject ICategoryService categoryService
+@inject NavigationManager navigationManager
+
+<PageTitle>Add - Product</PageTitle>
+
+<button class="btn btn-info" @onclick="@(()=> navigationManager.NavigateTo("/products"))">Go back products</button>
+
+<ModuleTitle title="Add product"></ModuleTitle>
+
+<EditForm Model="@product">
+    <div class="row">
+        <div class="col-8 form-group">
+            <label for="title" class="col-form-label">Tittle</label>
+            <InputText id="tittle" @bind-Value="product.Title" required class="form-control"/>
+        </div>
+        <div class="col-8 form-group">
+            <label for="price" class="col-form-label">Price</label>
+            <InputNumber id="price" @bind-Value="product.Price" class="form-control"/>
+        </div>
+        <div class="col-8 form-group">
+            <label for="description" class="col-form-label">Description</label>
+            <InputText id="description" @bind-Value="product.Description" required class="form-control"/>
+        </div>
+        @* <div class="col-8 form-group">
+            <label for="images" class="col-form-label">Images</label>
+            <InputTextArea id="images" @bind-Value="product.Images" required class="form-control"/>
+        </div> *@
+        <div class="col-8 form-group">
+            <label for="creationAt" class="col-form-label">Creation At</label>
+            <InputDate id="creationAt" @bind-Value="product.CreationAt" required class="form-control"/>
+        </div>
+        <div class="col-8 form-group">
+            <label for="updatedAt" class="col-form-label">Updated At</label>
+            <InputDate id="updatedAt" @bind-Value="product.UpdatedAt" required class="form-control"/>
+        </div>
+    </div>
+</EditForm>
+
+@code
+{
+    private Product product = new();
+}

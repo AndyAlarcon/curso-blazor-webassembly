@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ANDRES\\Documents\\Cursos Platzi\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj": {}
+    "C:\\Desarrollo\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ANDRES\\Documents\\Cursos Platzi\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj": {
+    "C:\\Desarrollo\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ANDRES\\Documents\\Cursos Platzi\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj",
+        "projectUniqueName": "C:\\Desarrollo\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj",
         "projectName": "curso-blazor-webassembly",
-        "projectPath": "C:\\Users\\ANDRES\\Documents\\Cursos Platzi\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj",
-        "packagesPath": "C:\\Users\\ANDRES\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ANDRES\\Documents\\Cursos Platzi\\curso-blazor-webassembly\\obj\\",
+        "projectPath": "C:\\Desarrollo\\curso-blazor-webassembly\\curso-blazor-webassembly.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Desarrollo\\curso-blazor-webassembly\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ANDRES\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,13 +57,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )",
+              "version": "[8.0.1, )",
               "autoReferenced": true
             }
           },
@@ -79,7 +81,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.11, 8.0.11]"
+              "version": "[8.0.1, 8.0.1]"
             }
           ],
           "frameworkReferences": {
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
