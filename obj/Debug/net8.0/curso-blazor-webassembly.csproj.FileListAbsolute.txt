@@ -2064,3 +2064,8 @@ C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.
 C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.0\curso-blazor-webassembly.pdb
 C:\Users\ANDRES\Documents\Cursos Platzi\curso-blazor-webassembly\obj\Debug\net8.0\ref\curso-blazor-webassembly.dll
 C:\Desarrollo\curso-blazor-webassembly\obj\Debug\net8.0\scopedcss\Pages\Products\Products.razor.rz.scp.css
+C:\Desarrollo\curso-blazor-webassembly\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm
+C:\Desarrollo\curso-blazor-webassembly\bin\Debug\net8.0\wwwroot\_framework\Blazored.Toast.wasm.gz
+C:\Desarrollo\curso-blazor-webassembly\bin\Debug\net8.0\Blazored.Toast.dll
+C:\Desarrollo\curso-blazor-webassembly\obj\Debug\net8.0\webcil\Blazored.Toast.wasm
+C:\Desarrollo\curso-blazor-webassembly\obj\Debug\net8.0\compressed\ntcj8tjcvp.gz

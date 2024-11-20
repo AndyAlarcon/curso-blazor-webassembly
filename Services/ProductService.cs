@@ -23,7 +23,23 @@ public class ProductService: IProductService
         {
             throw new ApplicationException(content);
         }
-        return await JsonSerializer.DeserializeAsync<List<Product>>(await response.Content.ReadAsStreamAsync(), options);
+        // return await JsonSerializer.DeserializeAsync<List<Product>>(await response.Content.ReadAsStreamAsync(), options);
+        List<Product> productos = JsonSerializer.Deserialize<List<Product>>(content , options);
+    productos?.ForEach(producto =>
+    {
+        int cantidad = producto.Images.Count();
+        string[] imagenes = new string[cantidad];
+        int i = 0;
+        foreach (var images in producto.Images)
+        {
+            imagenes[i] = images.ToString().Replace("\"", "").Replace("]", "").Replace("[", "");
+            i++;
+        }
+
+        producto.Images = imagenes;
+    }); 
+
+    return productos;
     }
     public async Task Add(Product product)
     {
